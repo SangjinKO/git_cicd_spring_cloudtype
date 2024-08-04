@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
           project: SangjinKO/git-cicd-spring-cloudtype
           stage: main
-          yaml: |
+          yaml:
             name: git-cicd-spring-cloudtype
             app: java@17
             options:
